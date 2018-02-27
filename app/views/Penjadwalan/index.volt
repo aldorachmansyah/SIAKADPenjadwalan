@@ -1,5 +1,6 @@
 {% extends 'layouts/sidebar_dosen.volt' %}
 {% block content %}
+
 <!-- ============================================================== -->
 <!-- Page Content -->
 <!-- ============================================================== -->
@@ -15,7 +16,7 @@
           <ol class="breadcrumb">
             <li><a href="#">Dashboard</a></li>
             <li><a href="#">Penjadwalan</a></li>
-            <li class="active">Cari Ruang</li>
+            <li class="active">Penjadwalan Kuliah</li>
           </ol>
         </div>
         <!-- /.col-lg-12 -->
@@ -25,9 +26,9 @@
       <!-- ============================================================== -->
       <!-- .row -->
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-lg-12">
           <div class="white-box">
-            <h3 class="box-title m-b-1">Cari Ruang</h3>
+            <h3 class="box-title m-b-1">Cari Jadwal</h3>
             <div class="row">
               <div class="col-sm-12">
                 <div class="form-group">
@@ -43,31 +44,7 @@
                     </select>
                   </label>
                   &nbsp;
-                  <label class="form-inline">Jadwal
-                    <select id="demo-show-entries" class="form-control input-sm">
-                      <option>07.00</option>
-                      <option>10.00</option>
-                      <option>13.00</option>
-                      <option>16.00</option>
-                    </select>
-                  </label>
-                  &nbsp;
-                  <label class="form-inline">Jumlah Orang
-                    <select id="demo-show-entries" class="form-control input-sm">
-                      <option>5</option>
-                      <option>10</option>
-                      <option>15</option>
-                      <option>20</option>
-                      <option>25</option>
-                      <option>30</option>
-                      <option>35</option>
-                      <option>40</option>
-                      <option>45</option>
-                      <option>50</option>
-                    </select>
-                  </label>
-                  &nbsp;
-                  <a href="{{url('hasilsearch')}}"><button id="demo-btn-addrow" class="btn btn-primary btn-sm"><i class="fa fa-search" aria-hidden="true"></i> Cari</button></a>
+                  <a href="{{url('hasilpenjadwalan')}}"> <button id="demo-btn-addrow" class="btn btn-primary btn-sm"><i class="fa fa-search" aria-hidden="true"></i> Cari</button></a>
                 </div>
               </div>
             </div>

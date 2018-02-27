@@ -58,7 +58,7 @@
               </div>
             </div>
             <div class="table-responsive">
-                <table class="table color-table success-table table-hover">
+                <table class="table color-table info-table table-hover">
                     <thead>
                         <tr>
                             <th class="text-center">KodeMK</th>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+a:4:{i:0;s:7265:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -118,8 +118,8 @@
     <!-- ============================================================== -->
     <!-- End Left Sidebar -->
     <!-- ============================================================== -->
-      {% block content %}
-      {% endblock %}
+      ";s:7:"content";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:8:"
+      ";s:4:"file";s:70:"C:\xampp\htdocs\SIAKADPenjadwalan/app/views/layouts/sidebar_dosen.volt";s:4:"line";i:181;}}i:1;s:2359:"
 
       <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
@@ -177,8 +177,8 @@
     </script>
     <!--Style Switcher -->
 
-      {% block content %}
-      {% endblock %}
+      ";i:2;s:30:"
     </body>
 
     </html>
+";}

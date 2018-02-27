@@ -24,15 +24,13 @@
       <!-- Demo table -->
       <!-- ============================================================== -->
       <!-- .row -->
-                <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
           <div class="white-box">
             <h3 class="box-title m-b-1">Gedung</h3>
             <div class="row">
               <div class="col-sm-6">
-                <div class="form-group">
-                  <button type="button" class="btn btn-info waves-effect btn-sm" data-toggle="modal" data-target="#add-contact"><i class="fa fa-plus" aria-hidden="true"></i> Tambah</button>
-                </div>
+
                 <!-- Modal -->
                 <div id="add-contact" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
@@ -64,8 +62,8 @@
                                   </form>
                                 </div>
                                 <div class="modal-footer">
-                                  <button type="button" class="btn btn-danger waves-effect" data-dismiss="modal"><i class="fa fa-close" aria-hidden="true"></i> Batal</button>
-                                  <button type="button" class="btn btn-info waves-effect" data-dismiss="modal"><i class="fa fa-save" aria-hidden="true"></i> Simpan</button>
+                                  <button type="button" class="btn btn-default waves-effect" data-dismiss="modal"><i class="ti-close m-r-5 pull" aria-hidden="true"></i> Batal</button>
+                                  <button type="button" class="btn btn-info waves-effect" data-dismiss="modal"><i class="ti-save m-r-5 pull" aria-hidden="true"></i> Simpan</button>
                                 </div>
                               </div>
                               <!-- /.modal-content -->
@@ -75,55 +73,70 @@
                         </div>
                       </div>
                     </div>
-                    <div class="table-responsive">
-                      <table class="table table-bordered table-striped table-hover">
-                        <thead>
-                          <tr>
-                            <th class="text-center">Kode Gedung</th>
-                                        <th class="text-center" class="text-center">Nama Gedung</th>
-                                        <th class="text-center">Luas (m2)</th>
-                                        <th class="text-center">Jumlah Ruang</th>
-                            <th class="text-center">Fungsi</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th class="text-center">IF</th>
-                                        <th class="text-center" class="text-center">Gedung Informatika</th>
-                                        <th class="text-center">285</th>
-                                        <th class="text-center">20</th>
-                            <td class="text-nowrap" style="text-align: center">
-                              <a href="#" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse m-r-10"></i></a>
-                              <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-close text-danger"></i> </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th class="text-center">TC</th>
-                                        <th class="text-center" class="text-center">Gedung Sistem Informasi</th>
-                                        <th class="text-center">350</th>
-                                        <th class="text-center">15</th>
-                            <td class="text-nowrap" style="text-align: center">
-                              <a href="#" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse m-r-10"></i> </a>
-                              <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-close text-danger"></i> </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th class="text-center">TL</th>
-                                        <th class="text-center" class="text-center">Teknik Lingkungan</th>
-                                        <th class="text-center">240</th>
-                                        <th class="text-center">14</th>
-                            <td class="text-nowrap" style="text-align: center">
-                              <a href="#" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse m-r-10"></i> </a>
-                              <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-close text-danger"></i> </a>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="panel">
+                          <div class="sk-chat-widgets">
+                            <div class="panel panel-themecolor">
+                              <div class="panel-heading">
+                                <center>Daftar Gedung</center>
+                              </div>
+                                  <div class="table-responsive">
+                                    <table class="table table-hover manage-u-table ">
+                                      <thead>
+                                        <tr>
+                                          <th class="text-center">Kode Gedung</th>
+                                          <th class="text-center" class="text-center">Nama Gedung</th>
+                                          <th class="text-center">Luas (m2)</th>
+                                          <th class="text-center">Jumlah Ruang</th>
+                                          <th class="text-center">Fungsi</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th class="text-center">IF</th>
+                                          <th class="text-center" class="text-center">Gedung Informatika</th>
+                                          <th class="text-center">285</th>
+                                          <th class="text-center">20</th>
+                                          <td class="text-nowrap" style="text-align: center">
+                                            <a href="#" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse m-r-10"></i></a>
+                                            <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-close text-danger"></i> </a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <th class="text-center">TC</th>
+                                          <th class="text-center" class="text-center">Gedung Sistem Informasi</th>
+                                          <th class="text-center">350</th>
+                                          <th class="text-center">15</th>
+                                          <td class="text-nowrap" style="text-align: center">
+                                            <a href="#" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                            <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-close text-danger"></i> </a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <th class="text-center">TL</th>
+                                          <th class="text-center" class="text-center">Teknik Lingkungan</th>
+                                          <th class="text-center">240</th>
+                                          <th class="text-center">14</th>
+                                          <td class="text-nowrap" style="text-align: center">
+                                            <a href="#" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                            <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-close text-danger"></i> </a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                    <div class="text-right">
+                        <button type="button" class="btn btn-success waves-effect btn-sm" data-toggle="modal" data-target="#add-contact"><i class="ti-plus m-r-5-pull" aria-hidden="true"></i> Tambah</button>
+                      </div>
                   </div>
                 </div>
               </div>
-            </div>
           <!-- /.row -->
           <!-- ============================================================== -->
           <!-- Right sidebar -->
